@@ -7,5 +7,6 @@ const props: ButtonProps = {
 export default () => (
   <>
     <Button {...props} />
+    <Button />
   </>
 );
