@@ -2,7 +2,7 @@ export type Props = {
   text: string;
 }
 
-const Button = (props: Props) => <button>{props.text}</button>
+const Button = (props: Props) => <button type="button">{props.text}</button>
 
 Button.defaultProps = {
   text: 'MyButton',
