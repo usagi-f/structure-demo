@@ -1,13 +1,14 @@
 import * as React from 'react'
-import { Button, IButtonProps } from '../lib/dist';
+import { Button, IButtonProps } from 'usagi-sandbox-lib';
 
 const props: IButtonProps = {
-  text: 'Hello World!',
+  text: 'Hello Dog!',
 }
 
 export default () => (
   <>
-    <Button {...props} />
     <Button />
+    <Button>Hello World!</Button>
+    <Button {...props}></Button>
   </>
 );
