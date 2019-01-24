@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["dom", "es2017"],
+    "module": "es6",
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

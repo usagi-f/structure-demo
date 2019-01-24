@@ -1,6 +1,7 @@
-import Button, { ButtonProps } from '../components/Button';
+import * as React from 'react'
+import { Button, IButtonProps } from '../lib/dist';
 
-const props: ButtonProps = {
+const props: IButtonProps = {
   text: 'Hello World!',
 }
 
