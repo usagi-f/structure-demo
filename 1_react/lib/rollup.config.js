@@ -12,8 +12,7 @@ export default {
     exports: 'named',
   },
   external: [
-    'react',
-    'react-dom',
+    ...Object.keys(pkg.dependencies),
   ],
   plugins: [
     nodeResolve(),
