@@ -19,6 +19,6 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "typescript": "^3.2.4",
-    "usagi-sandbox-lib": "0.0.4"
+    "usagi-sandbox-lib": "0.0.7"
   }
 }
