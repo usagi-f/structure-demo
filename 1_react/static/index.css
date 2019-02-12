@@ -1,0 +1,20 @@
+.style_avatar__1CJNj {
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.style_avatar__1CJNj img {
+  display: block;
+}
+
+.style_button__3yWFH {
+  background-color: red;
+  color: #fff;
+  font-size: 24px;
+}
+
+.style_button__3yWFH[data-theme="dark"] {
+  background-color: darkred;
+}

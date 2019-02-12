@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
         <Head>
           <title>react ui component</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-          <link rel="stylesheet" href="/static/all.css"/>
+          <link rel="stylesheet" href="/static/index.css"/>
         </Head>
         <body>
           <Main />
